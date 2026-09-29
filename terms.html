@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use · FLOW THROUGH SPACE</title>
+  <meta name="description" content="Terms of Use for Flow Through Space — an independent editorial on interior design, architecture, materials and modern living.">
+  <meta name="keywords" content="terms of use, legal, editorial, interior design, architecture">
+  <meta name="author" content="Flow Through Space Editorial">
+  <link rel="canonical" href="https://flowthroughspace.com/terms.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Terms of Use · FLOW THROUGH SPACE">
+  <meta property="og:description" content="Terms of Use for the independent editorial Flow Through Space.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flowthroughspace.com/terms.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    /* ---------- RESET & BASE (same as main) ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --paper: #f9f7f4;
+      --ink: #1e1e1e;
+      --muted: #6b6b6b;
+      --rule: #e2ddd7;
+      --accent: #9b6b4b;
+      --accent-light: #f4ede7;
+      --serif: 'Georgia', 'Times New Roman', 'Palatino', serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --max-width: 1280px;
+      --content-width: 720px;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    h1 { font-size: 3.2rem; }
+    h2 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+    h4 { font-size: 1.1rem; font-family: var(--sans); font-weight: 600; letter-spacing: -0.01em; }
+
+    p {
+      font-size: 1.05rem;
+      color: #2c2c2c;
+      margin-bottom: 1.25rem;
+    }
+
+    ul, ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      font-size: 1.05rem;
+      color: #2c2c2c;
+      margin-bottom: 0.4rem;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* ---------- HEADER (same as main) ---------- */
+    .site-header {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.5rem 0;
+      background: var(--paper);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      background: var(--ink);
+      color: var(--paper);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      border-radius: 2px;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-text {
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    .logo-text span {
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+    }
+
+    .main-nav a {
+      color: var(--muted);
+      transition: color 0.2s;
+      padding-bottom: 0.2rem;
+      border-bottom: 2px solid transparent;
+    }
+
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: 1px solid var(--rule);
+      padding: 0.5rem 0.75rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 768px) {
+      .main-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--paper);
+        padding: 1.5rem 2rem;
+        border-bottom: 1px solid var(--rule);
+        gap: 1rem;
+      }
+      .main-nav.open {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+      }
+      .header-inner {
+        position: relative;
+      }
+    }
+
+    /* ---------- TERMS PAGE SPECIFIC ---------- */
+    .terms-header {
+      text-align: center;
+      max-width: 860px;
+      margin: 4rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    .terms-header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .terms-header .subhead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-style: italic;
+      line-height: 1.6;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      .terms-header h1 { font-size: 2.4rem; }
+      .terms-header .subhead { font-size: 1rem; }
+    }
+
+    .terms-content {
+      max-width: var(--content-width);
+      margin: 0 auto 5rem;
+      padding: 0 1rem;
+    }
+
+    .terms-content h2 {
+      font-size: 1.8rem;
+      margin-top: 2.8rem;
+      margin-bottom: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .terms-content h2:first-of-type {
+      margin-top: 0;
+      border-top: none;
+      padding-top: 0;
+    }
+
+    .terms-content p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 1.25rem;
+    }
+
+    .terms-content ul,
+    .terms-content ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    .terms-content li {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 0.6rem;
+    }
+
+    .terms-content strong {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .terms-content .highlight-box {
+      background: var(--accent-light);
+      padding: 1.5rem 2rem;
+      border-radius: 4px;
+      margin: 2rem 0;
+      border-left: 4px solid var(--accent);
+    }
+
+    .terms-content .highlight-box p {
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+
+    .terms-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+
+    /* ---------- FOOTER (same as main) ---------- */
+    .site-footer {
+      background: var(--ink);
+      color: #aaa;
+      padding: 3rem 2rem 1.5rem;
+      border-top: 1px solid #333;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      max-width: var(--max-width);
+      margin: 0 auto 2.5rem;
+    }
+
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .footer-brand .logo-text {
+      color: var(--paper);
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: #888;
+      max-width: 300px;
+      line-height: 1.6;
+    }
+
+    .footer-col h5 {
+      font-family: var(--sans);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--paper);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-col li {
+      margin-bottom: 0.6rem;
+    }
+
+    .footer-col a {
+      font-size: 0.85rem;
+      color: #999;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--paper);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #333;
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      font-size: 0.75rem;
+      color: #777;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* utility */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Flow Through Space home">
+        <span class="logo-mark">F</span>
+        <span class="logo-text">Flow <span>Through</span> Space</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html" class="active">Terms Of Privacy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookies Policy</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="categories.html">Categories</a></li>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="container" role="main">
+
+    <!-- TERMS HEADER -->
+    <header class="terms-header fade-in">
+      <h1>Terms of Use</h1>
+      <p class="subhead">Please read these terms carefully before using Flow Through Space. By accessing this website, you agree to be bound by them.</p>
+    </header>
+
+    <div class="terms-meta fade-in">
+      Last updated: March 2025
+    </div>
+
+    <!-- TERMS CONTENT -->
+    <div class="terms-content fade-in">
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>Welcome to Flow Through Space ("we," "us," "our," or "the Site"). These Terms of Use ("Terms") govern your access to and use of the website located at <strong>flowthroughspace.com</strong> and any related content, features, or services (collectively, the "Service").</p>
+      <p>By accessing or using the Service, you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use the Service.</p>
+      <p>We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. It is your responsibility to review this page periodically.</p>
+
+      <h2>2. Use of Content</h2>
+      <p>All content published on Flow Through Space—including but not limited to articles, essays, guides, images, photographs, illustrations, graphics, and logos—is the property of Flow Through Space or its content creators and is protected by international copyright, trademark, and other intellectual property laws.</p>
+      <p>You may:</p>
+      <ul>
+        <li>Read, share, and link to our content for personal, non-commercial purposes.</li>
+        <li>Quote short excerpts (up to 100 words) with clear attribution and a link back to the original article on our Site.</li>
+        <li>Print or download content for your own personal, non-commercial use.</li>
+      </ul>
+      <p>You may <strong>not</strong>:</p>
+      <ul>
+        <li>Republish, reproduce, or redistribute any substantial portion of our content without prior written permission.</li>
+        <li>Use our content for commercial purposes, including training machine learning models, without explicit authorization.</li>
+        <li>Modify, adapt, or create derivative works from our content without permission.</li>
+        <li>Remove or alter any copyright, trademark, or attribution notices.</li>
+      </ul>
+      <p>To request permission for commercial use or republication, please <a href="contact.html" style="color: var(--accent); text-decoration: underline;">contact us</a>.</p>
+
+      <h2>3. User Conduct</h2>
+      <p>When using our Service—including any comment sections, contact forms, or interactive features—you agree not to:</p>
+      <ul>
+        <li>Post or transmit any content that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable.</li>
+        <li>Impersonate any person or entity, or falsely state or misrepresent your affiliation with a person or entity.</li>
+        <li>Upload or transmit any viruses, malware, or other harmful code.</li>
+        <li>Attempt to gain unauthorized access to any part of the Service, other users' accounts, or computer systems.</li>
+        <li>Interfere with or disrupt the Service or servers or networks connected to the Service.</li>
+        <li>Use the Service for any illegal or unauthorized purpose.</li>
+      </ul>
+      <p>We reserve the right to remove any content that violates these Terms and to terminate your access to the Service at our sole discretion.</p>
+
+      <h2>4. Intellectual Property</h2>
+      <p>The Flow Through Space name, logo, and all related names, logos, product and service names, designs, and slogans are trademarks of Flow Through Space. You may not use such marks without our prior written permission.</p>
+      <p>All other trademarks, service marks, and trade names appearing on the Service are the property of their respective owners.</p>
+      <p>Images used on this Site are either owned by us, licensed under Creative Commons, or used with permission. If you believe that any content on our Site infringes your copyright, please contact us with the following information:</p>
+      <ul>
+        <li>A description of the copyrighted work you claim has been infringed.</li>
+        <li>The location on our Site of the allegedly infringing material.</li>
+        <li>Your contact information (name, address, email, phone number).</li>
+        <li>A statement that you have a good-faith belief that the disputed use is not authorized.</li>
+        <li>A statement, under penalty of perjury, that the information in your notice is accurate and that you are the copyright owner or authorized to act on their behalf.</li>
+      </ul>
+
+      <h2>5. Third-Party Links & Content</h2>
+      <p>Our Service may contain links to third-party websites, advertisers, or services that are not owned or controlled by Flow Through Space. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites.</p>
+      <p>You acknowledge and agree that Flow Through Space shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.</p>
+      <p>We strongly advise you to read the terms and conditions and privacy policies of any third-party websites you visit.</p>
+
+      <h2>6. Disclaimer of Warranties</h2>
+      <p>The Service and all content are provided on an <strong>"as is"</strong> and <strong>"as available"</strong> basis, without any warranties of any kind, either express or implied.</p>
+      <p>Flow Through Space makes no warranties or representations about the accuracy, reliability, completeness, or timeliness of the content on the Service. We do not warrant that:</p>
+      <ul>
+        <li>The Service will be uninterrupted, secure, or error-free.</li>
+        <li>The results obtained from using the Service will be accurate or reliable.</li>
+        <li>Any errors in the Service will be corrected.</li>
+      </ul>
+      <p>Any reliance you place on the information provided on this Site is strictly at your own risk. We are not liable for any decisions you make based on the content we publish.</p>
+
+      <h2>7. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by applicable law, Flow Through Space, its editors, authors, contributors, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages—including without limitation loss of profits, data, use, or goodwill—arising out of or in connection with:</p>
+      <ul>
+        <li>Your access to or use of (or inability to access or use) the Service.</li>
+        <li>Any conduct or content of any third party on the Service.</li>
+        <li>Any content obtained from the Service.</li>
+        <li>Unauthorized access, use, or alteration of your transmissions or content.</li>
+      </ul>
+      <p>This limitation applies whether the alleged liability is based on warranty, contract, tort (including negligence), or any other legal theory, and whether or not we have been advised of the possibility of such damage.</p>
+
+      <h2>8. Indemnification</h2>
+      <p>You agree to defend, indemnify, and hold harmless Flow Through Space and its editors, authors, contributors, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:</p>
+      <ul>
+        <li>Your use of and access to the Service.</li>
+        <li>Your violation of any term of these Terms.</li>
+        <li>Your violation of any third-party right, including without limitation any copyright, property, or privacy right.</li>
+        <li>Any claim that your content caused damage to a third party.</li>
+      </ul>
+
+      <h2>9. Privacy</h2>
+      <p>Your use of the Service is also governed by our <a href="privacy.html" style="color: var(--accent); text-decoration: underline;">Privacy Policy</a>, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand our practices regarding the collection, use, and disclosure of your personal information.</p>
+
+      <h2>10. Termination</h2>
+      <p>We may terminate or suspend your access to the Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms.</p>
+      <p>All provisions of these Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>
+
+      <h2>11. Governing Law</h2>
+      <p>These Terms shall be governed and construed in accordance with the laws of <strong>Italy</strong>, without regard to its conflict of law provisions.</p>
+      <p>Any dispute arising from or relating to these Terms or the Service shall be subject to the exclusive jurisdiction of the courts located in <strong>Milan, Italy</strong>.</p>
+
+      <h2>12. Severability</h2>
+      <p>If any provision of these Terms is held to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions of these Terms will remain in full force and effect. The invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision.</p>
+
+      <h2>13. Entire Agreement</h2>
+      <p>These Terms, together with our Privacy Policy and any other legal notices published by us on the Service, constitute the entire agreement between you and Flow Through Space concerning the Service and supersede any prior agreements, understandings, or representations.</p>
+
+      <h2>14. Contact Information</h2>
+      <p>If you have any questions about these Terms of Use, please contact us:</p>
+      <div class="highlight-box">
+        <p><strong>Flow Through Space Editorial</strong><br>
+        Email: <a href="mailto:legal@flowthroughspace.com" style="color: var(--accent); text-decoration: underline;">legal@flowthroughspace.com</a><br>
+        Milan, Italy</p>
+      </div>
+
+      <p style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.95rem; color: var(--muted);">By using Flow Through Space, you acknowledge that you have read and understood these Terms of Use and agree to be bound by them.</p>
+
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">Flow <span style="color:var(--accent);">Through</span> Space</span>
+        <p>An independent journal of interior design and architecture. We publish long-form guides, essays and practical knowledge for people who care about how spaces feel.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#interior">Interior Design</a></li>
+          <li><a href="#architecture">Architecture</a></li>
+          <li><a href="#materials">Materials</a></li>
+          <li><a href="#lighting">Lighting</a></li>
+          <li><a href="#guides">Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Information</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#" rel="noopener">Instagram</a></li>
+          <li><a href="#" rel="noopener">Pinterest</a></li>
+          <li><a href="#" rel="noopener">LinkedIn</a></li>
+          <li><a href="#" rel="noopener">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Flow Through Space. All rights reserved.</span>
+      <span>Made with care in Milan.</span>
+    </div>
+  </footer>
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    (function() {
+      'use strict';
+
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.menu-toggle');
+      const mainNav = document.querySelector('.main-nav');
+
+      if (menuToggle && mainNav) {
+        menuToggle.addEventListener('click', function() {
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          mainNav.classList.toggle('open');
+        });
+      }
+
+      // Scroll reveal
+      const fadeElements = document.querySelectorAll('.fade-in');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      fadeElements.forEach(el => observer.observe(el));
+
+      // Smooth anchor navigation (for internal links)
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#') return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+
+    })();
+  </script>
+
+</body>
+</html>
